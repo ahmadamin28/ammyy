@@ -1,0 +1,165 @@
+body {
+    background-image: url(./back.jpg);
+    margin: 0 !important;
+}
+
+h1 {
+    text-align: left;
+    font-size: 30px;
+    position: relative;
+    color: rgb(133, 196, 207);
+    margin-top: 0px;
+    font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+}
+
+.header {
+    background-color: #446084;
+    margin-top: 0%;
+    margin-left: 0px;
+    margin-right: 0%;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+div.top {
+    display: inline;
+}
+
+a:hover {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    display: inline;
+}
+
+.logo-container {
+    display: inline;
+    vertical-align: middle;
+}
+
+.navbar {
+    list-style: none;
+    float: right;
+    display: inline;
+}
+
+.navbar li {
+    display: inline;
+    padding: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar li a:hover {
+    color: yellow;
+}
+
+.heading-h1 {
+    font-size: 10rem;
+    margin: 0 2%;
+    color: honeydew;
+    padding-left: 0%;
+}
+
+.heading-p {
+    font-size: 3rem;
+    margin: 0%;
+    color: honeydew;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.heading-a {
+    width: 100px;
+}
+
+.heading {
+   
+}
+
+.button {
+    background: linear-gradient(to bottom, #edf7fc 5%, #ffffff 100%);
+    background-color: #edf7fc;
+    border-radius: 3px;
+    border: 1px solid #474b4d;
+    display: inline-block;
+    cursor: pointer;
+    color: #0a090a;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 9px;
+    text-decoration: none;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #ffffff 5%, #edf7fc 100%);
+    background-color: #ffffff;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.entry {
+    width: 290px;
+    float: left;
+    margin: 10px;
+    height: 198px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+figure {
+    display: block;
+    width: 202px;
+    height: 170px;
+    background-color: #e7e3d8;
+    padding: 9px;
+    text-align: center;
+}
+
+figure img {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #d6d6d6;
+}
+
+figcaption {
+    padding-left: 20px;
+}
+
+.bottom {
+    background-color: #446084;
+    padding: 20px 0 5px;
+    margin-top: 25%;
+    text-align: center;
+    color: cornsilk;
+}
+
+.bottom a:hover {
+    color: white;
+}
+
+.offer {
+    margin-left: 90px;
+}
+
+.offer2 {
+    margin-left: 160px;
+}
+
+.link {
+    color: black;
+}

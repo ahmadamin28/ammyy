@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login</title>
+     <style>
+         .button{
+    box-shadow:inset 1px 1px 10px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 7px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #154682;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+body{
+    background-image: url(./back.jpg);
+}
+h2{
+    color: ivory;
+}
+p{
+    color: ivory;
+}
+label{
+    color: ivory;
+}
+     </style>
+ </head>
+ <body>
+
+     <a class="button" href="shopping.html" class="myButton">Menu</a>
+        <h2>login Form</h2>
+        <label>Username</label><br>
+         <input type="Username" placeholder="username" name="username" required><br> 
+     <label>Password</label><br>
+      <input type="password" placeholder="password" name="password" required><br>
+       <br>
+       <button type="submit">Login</button>
+       <p>Registration Form</p>
+       <a href="reg.html"><button type="Submit">Sign Up</button> </a>
+ </body>
+ </html>
